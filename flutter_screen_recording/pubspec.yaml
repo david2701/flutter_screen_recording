@@ -19,12 +19,6 @@ dependencies:
       url: https://github.com/david2701/flutter_screen_recording.git
       path: flutter_screen_recording_platform_interface
       ref: flutter-android-v2
-     
-  flutter_screen_recording_web: 
-    git:
-      url: https://github.com/david2701/flutter_screen_recording.git
-      path: flutter_screen_recording_web
-      ref: flutter-android-v2
 
 dev_dependencies:
   flutter_test:
@@ -38,5 +32,3 @@ flutter:
         pluginClass: FlutterScreenRecordingPlugin
       ios:
         pluginClass: FlutterScreenRecordingPlugin
-      web:
-        default_package: flutter_screen_recording_web
